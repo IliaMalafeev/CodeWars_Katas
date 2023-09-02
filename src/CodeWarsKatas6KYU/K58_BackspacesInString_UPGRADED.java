@@ -1,7 +1,22 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+
+    Assume "#" is like a backspace in string. This means that string "a#bc#d" actually is "bd"
+    Your task is to process a string with "#" symbols.
+
+    Examples:
+        "abc#d##c"      ==>  "ac"
+        "abc##d######"  ==>  ""
+        "#######"       ==>  ""
+        ""              ==>  ""
+---------------------------------------------------> */
+
 public class K58_BackspacesInString_UPGRADED {
+
     public static void main(String[] args) {
+
         System.out.println(cleanStringShortened("###He##llo#"));
         System.out.println(cleanStringShortened("abc#d##c"));
         System.out.println(cleanStringShortened("abc##d######"));
@@ -12,12 +27,14 @@ public class K58_BackspacesInString_UPGRADED {
     }
 
     public static String cleanString(String s) {
+
         int y = s.length();
         for (int i = 0; i <= y; i++) s = s.replaceAll("^#+|[^#]#", "");
         return s.replaceAll("#", "").length() == 0 ? "" : s;
     }
 
     public static String cleanStringShortened(String s) {
+
         while (s.contains("#")) s = s.replaceAll("^#+|[^#]#", "");
         return s;
     }

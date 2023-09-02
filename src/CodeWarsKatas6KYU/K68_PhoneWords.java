@@ -1,12 +1,19 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K68_PhoneWords {
+
     public static void main(String[] args) {
+
         System.out.println(phoneWords("416666663105558822255"));
         System.out.println(phoneWords("443355555566604466690277733099966688"));
     }
 
     public static String phoneWords(String str) {
+
         if (str == null || str.replaceAll("1+", "").length() == 0) return "";
         String[] buttonValues = {" ", null, "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         StringBuilder result = new StringBuilder();

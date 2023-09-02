@@ -1,7 +1,13 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K60_ARuleOfDivisibilityBy13 {
+
     public static void main(String[] args) {
+
         System.out.println(thirt(1234567)); // 87
         System.out.println(thirt(987654321)); // 30
         System.out.println(thirt(1111111111)); // 71
@@ -9,6 +15,7 @@ public class K60_ARuleOfDivisibilityBy13 {
     }
 
     public static long thirt(long n) {
+
         long sum = findSum(n);
         while (sum != findSum(sum)) {
             sum = findSum(sum);
@@ -17,6 +24,7 @@ public class K60_ARuleOfDivisibilityBy13 {
     }
 
     public static long findSum(long n) {
+
         String number = String.valueOf(n);
         int digitCount = number.length();
         long sum = 0;

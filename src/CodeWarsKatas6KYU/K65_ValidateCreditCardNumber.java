@@ -1,12 +1,19 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K65_ValidateCreditCardNumber {
+
     public static void main(String[] args) {
+
         System.out.println(validate("891"));
         System.out.println(validate("123"));
     }
 
-    public static boolean validate(String n){
+    public static boolean validate(String n) {
+
         int sum = 0;
         for (int i = 0; i < n.length(); i++) {
             int x = Integer.parseInt(String.valueOf(n.charAt(i)));

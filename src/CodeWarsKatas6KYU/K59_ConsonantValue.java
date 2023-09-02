@@ -1,13 +1,20 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K59_ConsonantValue {
+
     public static void main(String[] args) {
+
         System.out.println(solve("mischtschenkoana"));  // 80
         System.out.println(solve("twelfthstreet"));     // 103
         System.out.println(solve("khrushchev"));        // 38
     }
 
     public static int solve(final String s) {
+
         String sNoVowels = s.replaceAll("[aeiou]", " ");
         String[] consSequences = sNoVowels.split(" ");
         int maxValue = 0;

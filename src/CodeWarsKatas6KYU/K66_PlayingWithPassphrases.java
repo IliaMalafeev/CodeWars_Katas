@@ -1,13 +1,20 @@
 package CodeWarsKatas6KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K66_PlayingWithPassphrases {
+
     public static void main(String[] args) {
+
         System.out.println(playPass("BORN IN 2015!", 1));
         System.out.println(playPass("I LOVE YOU!!!", 1));
         System.out.println(playPass("MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015", 2));
     }
 
     public static String playPass(String s, int n) {
+
         char[] letters = s.toUpperCase().toCharArray();
 
         StringBuilder lettersUpd = new StringBuilder();

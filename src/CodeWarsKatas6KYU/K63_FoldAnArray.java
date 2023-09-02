@@ -2,8 +2,14 @@ package CodeWarsKatas6KYU;
 
 import java.util.Arrays;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K63_FoldAnArray {
+
     public static void main(String[] args) {
+
         System.out.println(Arrays.toString(foldArray(new int[]{1, 2, 3, 4, 5, 99, 88, 78, 74, 73}, 130)));
         System.out.println(Arrays.toString(foldArray(new int[]{2}, 1)));
         System.out.println(Arrays.toString(foldArray(new int[]{68, 159, 164, -188, 22, 183, -30, 14, 66, -74, 193, 149, 134,
@@ -15,6 +21,7 @@ public class K63_FoldAnArray {
     }
 
     public static int[] foldArray(int[] array, int runs) {
+
         if (array.length == 1) return array;
 
         int[] result = Arrays.copyOf(array, array.length);
