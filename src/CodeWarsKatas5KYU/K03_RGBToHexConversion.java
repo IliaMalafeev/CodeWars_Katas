@@ -13,10 +13,10 @@ package CodeWarsKatas5KYU;
 
     Examples (input --> output):
 
-    255, 255, 255 --> "FFFFFF"
-    255, 255, 300 --> "FFFFFF"
-    0, 0, 0       --> "000000"
-    148, 0, 211   --> "9400D3"
+        255, 255, 255 --> "FFFFFF"
+        255, 255, 300 --> "FFFFFF"
+        0, 0, 0       --> "000000"
+        148, 0, 211   --> "9400D3"
 ---------------------------------------------------> */
 
 public class K03_RGBToHexConversion {

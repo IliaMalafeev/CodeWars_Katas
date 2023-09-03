@@ -15,7 +15,7 @@ package CodeWarsKatas5KYU;
     Note that the empty list or array is also a valid sublist/subarray.
 ---------------------------------------------------> */
 
-public class K05_MaximumSubarraySum {
+public class K05_MaximumSubarraySum_UPGRADED {
 
     public static void main(String[] args) {
 
