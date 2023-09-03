@@ -2,8 +2,14 @@ package CodeWarsKatas5KYU;
 
 import java.util.Arrays;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K04_DirectionsReduction {
+
     public static void main(String[] args) {
+
         System.out.println(Arrays.toString(dirReduc(new String[]{"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"})));
         System.out.println(Arrays.toString(dirReduc(new String[]{"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"})));
         System.out.println(Arrays.toString(dirReduc(new String[]{"NORTH", "WEST", "SOUTH", "EAST"})));
@@ -11,6 +17,7 @@ public class K04_DirectionsReduction {
     }
 
     public static String[] dirReduc(String[] arr) {
+
         String dir = "";
         for (String i : arr) dir += i + " ";
         System.out.println(dir);

@@ -3,14 +3,20 @@ package CodeWarsKatas5KYU;
 import java.util.Map;
 import java.util.TreeMap;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K13_PrimesInNumbers {
 
     public static void main(String[] args) {
+
         int n = 7775460;
         System.out.println(getPrimes(n));
     }
 
     public static String getPrimes(int n) {
+
         Map<Integer, Integer> map = new TreeMap<>();
         for (int i = 2; i <= n; i++) {
             int iPowerCount = 0;

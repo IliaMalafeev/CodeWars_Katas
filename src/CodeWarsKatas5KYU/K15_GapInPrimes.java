@@ -6,8 +6,14 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K15_GapInPrimes {
+
     public static void main(String[] args) {
+
         System.out.println(Arrays.toString(gap(2,100,110)));
         System.out.println(Arrays.toString(gap(6,100,110)));
     }

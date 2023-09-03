@@ -2,8 +2,14 @@ package CodeWarsKatas5KYU;
 
 import java.util.*;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K14_IntegersRecreationOne_UPGRADED {
+
     public static void main(String[] args) {
+
         System.out.println(listSquared(1, 250));
         System.out.println(listSquaredUPGRADED(1, 250));
     }
@@ -51,6 +57,7 @@ public class K14_IntegersRecreationOne_UPGRADED {
     }
 
     public static String listSquaredUPGRADED(long m, long n) {
+
         ArrayList<Long[]> list = new ArrayList<>();
         for (long i = m; i <= n; i++) {
             long sum = 0;

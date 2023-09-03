@@ -2,8 +2,14 @@ package CodeWarsKatas5KYU;
 
 import java.math.BigInteger;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K08_StringIncrementer {
+
     public static void main(String[] args) {
+
         System.out.println();
         System.out.println(incrementString("7957900015536898731141109007"));
         System.out.println(incrementString("99999999999999999999999999999999"));
@@ -12,6 +18,7 @@ public class K08_StringIncrementer {
     }
 
     public static String incrementString(String str) {
+
         if (str.length() == 0) return "1";
 
         String beginning = str.replaceAll("\\d+$", "");

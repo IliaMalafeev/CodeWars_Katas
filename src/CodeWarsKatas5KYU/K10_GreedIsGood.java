@@ -1,11 +1,18 @@
 package CodeWarsKatas5KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K10_GreedIsGood {
+
     public static void main(String[] args) {
+
         System.out.println(greedy(new int[]{2,4,4,5,4}));
     }
 
     public static int greedy(int[] dice){
+
         int oneCount = 0, twoCount = 0, threeCount = 0, fourCount = 0, fiveCount = 0, sixCount = 0;
         int score = 0;
         for (int x : dice) {

@@ -1,7 +1,13 @@
 package CodeWarsKatas5KYU;
 
+/* <------------------------------------------------
+    DESCRIPTION:
+---------------------------------------------------> */
+
 public class K02_HumanReadableTime_UPGRADED {
+
     public static void main(String[] args) {
+
         System.out.println(makeReadable(0));
         System.out.println(makeReadable(5));
         System.out.println(makeReadable(60));
@@ -12,6 +18,7 @@ public class K02_HumanReadableTime_UPGRADED {
     }
 
     public static String makeReadable(int seconds) {
+
         int hours = seconds / 3600;
         int minutes = (seconds / 60) % 60;
         int newSeconds = seconds % 60;
@@ -28,6 +35,7 @@ public class K02_HumanReadableTime_UPGRADED {
     }
 
     public static String makeReadableUPGRADE(int seconds) {
+
         return String.format("%02d:%02d:%02d", seconds / 3600, (seconds / 60) % 60, seconds % 60);
     }
 }
