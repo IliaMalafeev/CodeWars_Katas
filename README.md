@@ -3,6 +3,8 @@
 This repository contains all CodeWars Katas that I have solved with **Java** language.
 I was doing them a lot while learning Java.
 
+My CodeWars account: [https://www.codewars.com/users/IliaMalafeev](https://www.codewars.com/users/IliaMalafeev)
+
 All Katas are devided between folders representing the difficulty level, e.g. 5 kyu or 3 kyu.
 
 Every Kata has a name which corresponds to the original name at CodeWars and can be found on the source.
