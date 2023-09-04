@@ -1,7 +1,7 @@
 package CodeWarsKatas5KYU;
 
 /* <------------------------------------------------
-    DESCRIPTION:
+    DESCRIPTION: Looks like this kata is deleted, since I cannot find it on CodeWars anymore.
 ---------------------------------------------------> */
 
 public class KXX_ValidParenthesis {
