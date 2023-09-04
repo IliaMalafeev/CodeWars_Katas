@@ -31,7 +31,7 @@ package CodeWarsKatas3KYU;
         KataSolution.expand("(-x-1)^2");     // returns "x^2+2x+1"
 ---------------------------------------------------> */
 
-public class BinominalExpansion {
+public class K01_BinominalExpansion {
 
     public static void main(String[] args) {
 
