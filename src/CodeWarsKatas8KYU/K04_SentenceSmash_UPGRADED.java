@@ -47,7 +47,7 @@ public class K04_SentenceSmash_UPGRADED {
 
         if (words.length == 0) return "";
         StringBuilder sentence = new StringBuilder();
-        for (String word : words) sentence.append(word + " ");
+        for (String word : words) sentence.append(word).append(" ");
 
         return sentence.toString().trim();
     }
