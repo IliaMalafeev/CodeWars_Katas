@@ -5,7 +5,9 @@ I completed them mostly while learning Java.
 
 My CodeWars account: [Ilia Malafeev](https://www.codewars.com/users/IliaMalafeev)
 
-My current progress: 88% on the way to 3 kyu.
+My current progress: 90% on the way to 3 kyu.
+
+My current leaderboard percentile: Top 3.105%
 
 All Katas are devided between folders representing the difficulty level, e.g. 5 kyu or 3 kyu.
 
