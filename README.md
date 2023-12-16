@@ -1,7 +1,7 @@
 # CodeWars Katas
 
 This repository contains all CodeWars Katas that I have solved with **Java** language.
-I completed them mostly while learning Java.
+I completed them mostly while learning Java, but I still solve new ones from time to time.
 
 My CodeWars account: [Ilia Malafeev](https://www.codewars.com/users/IliaMalafeev)
 
