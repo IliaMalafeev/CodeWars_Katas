@@ -9,7 +9,7 @@ My current progress: **3 kyu**, I'm 1% on the way to 2 kyu.
 
 My current leaderboard percentile: **Top 2.510%**
 
-All Katas are devided between folders representing the difficulty level, e.g. 5 kyu or 3 kyu.
+All Katas are divided between folders representing the difficulty level, e.g. 5 kyu or 3 kyu.
 
 Every Kata has a name which corresponds to the original name at [CodeWars](https://www.codewars.com) and can be found on the source.
 
